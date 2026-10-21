@@ -1,0 +1,15 @@
+MT5 engine (VitalsDump script, MetaTrader 5 build, 2026-10-21) against tests/reference.py
+case  0 hedging, plain             deals   701 trades   276 values compared   2160  OK
+case  1 netting reversals          deals  1881 trades   761 values compared   4257  OK
+case  2 filter symbol              deals  1189 trades    93 values compared    874  OK
+case  3 filter magic+comment       deals  2048 trades    31 values compared    431  OK
+case  4 now Monday 00:00:05        deals  1394 trades   562 values compared   3598  OK
+case  5 now 1 Nov (month start)    deals  1407 trades   569 values compared   3573  OK
+case  6 now 1 Jan (year start)     deals  1633 trades   664 values compared   4045  OK
+case  7 start-date filter          deals  1659 trades   315 values compared   2027  OK
+case  8 empty history              deals     0 trades     0 values compared    110  OK
+case  9 Sunday, 3000 positions     deals  6939 trades  2813 values compared   9139  OK
+case 10 no cash flow               deals   931 trades   378 values compared   2743  OK
+pip table 19 symbols: OK
+ALL PASS: 0 mismatches
+journal: 990 samples, 6 restarts, 6 days; compared 43 lines: OK, 0 mismatches

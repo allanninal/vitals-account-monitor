@@ -1,0 +1,7 @@
+MetaEditor results, 2026-10-21 (scratch copy of this repository)
+MT5:
+Vitals.mq5 :: Result: 0 errors, 0 warnings
+VitalsDump.mq5 :: Result: 0 errors, 0 warnings
+MT4 (Vitals.mq4, then VitalsDump4.mq4):
+Result: 0 errors, 0 warnings
+Result: 0 errors, 0 warnings
